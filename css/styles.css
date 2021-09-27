@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+#header-nav {
+    background-color: gray !important;
+    border-radius: 0%;
+    border:0;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}  
+.navbar-brand {
+    padding: 30px;
+}
+.navbar-brand h1 {
+    color:black;
+    font-weight: bold ;
+    font-size: 1.5em ;
+    text-transform: uppercase;
+    text-shadow: 1px, 1px, 1px #222;
+    line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a{
+    text-decoration: none;
+}
+.navbar-toggler{
+    margin-bottom: 10px;
+}
+
+.nav-item {
+    text-align: center;
+    font-weight: bold;
+    border: black 1px solid;
+}
+#chicken-nav{
+    background-color: yellow;
+}
+#beef-nav{
+    background-color: red;
+}
+#sushi-nav {
+    background-color: aqua;
+}
+/** begining of mainbody**/
+.main-body{
+    height: 1000px;
+}
+
+
+#chicken-item, #sushi-item, #beef-item {
+    position: relative;
+    height: 700px;
+    border: black 1px solid;
+    margin: 5px;
+    background-color: gray;
+}
+
+
+.menu-item h3 {
+    text-align: center;
+
+}
+.menu-item p{
+    padding: 5px;
+}
+
+@media (max-width:990px){
+  
+    #navbarSupportedContent{
+    visibility: visible !important;
+}
+}
